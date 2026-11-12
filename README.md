@@ -111,4 +111,4 @@ See `report/ARoG_Reproduction_Report.pdf` for details and proposed fixes.
 
 ## Author
 
-Ahmed, KGCR-RAG Project Group, Paderborn University
+Amin Khan Merokhel [Msc Computer Engineering] [4054303], KGCR-RAG Project Group, Paderborn University
