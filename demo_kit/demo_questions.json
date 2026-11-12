@@ -1,0 +1,245 @@
+{
+ "webqsp": [
+  {
+   "QuestionId": "WebQTest-124",
+   "RawQuestion": "what language does egyptian people speak?",
+   "ProcessedQuestion": "what language does egyptian people speak",
+   "Parses": [
+    {
+     "ParseId": "WebQTest-124.P0",
+     "AnnotatorId": 0,
+     "AnnotatorComment": {
+      "ParseQuality": "Complete",
+      "QuestionQuality": "Good",
+      "Confidence": "Normal",
+      "FreeFormComment": "First-round parse verification"
+     },
+     "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02k54)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02k54 ns:location.country.official_language ?x .\n}\n",
+     "PotentialTopicEntityMention": "egyptian",
+     "TopicEntityName": "Egypt",
+     "TopicEntityMid": "m.02k54",
+     "InferentialChain": [
+      "location.country.official_language"
+     ],
+     "Constraints": [],
+     "Time": null,
+     "Order": null,
+     "Answers": [
+      {
+       "AnswerType": "Entity",
+       "AnswerArgument": "m.025rvv7",
+       "EntityName": "Modern Standard Arabic"
+      }
+     ]
+    }
+   ],
+   "topic_entity": {
+    "m.02k54": "Egypt"
+   },
+   "qid_topic_entity": {
+    "Q79": "Egypt"
+   },
+   "demo_id": "W1"
+  },
+  {
+   "QuestionId": "WebQTest-801",
+   "RawQuestion": "what kind of government is egypt?",
+   "ProcessedQuestion": "what kind of government is egypt",
+   "Parses": [
+    {
+     "ParseId": "WebQTest-801.P0",
+     "AnnotatorId": 0,
+     "AnnotatorComment": {
+      "ParseQuality": "Complete",
+      "QuestionQuality": "Good",
+      "Confidence": "Normal",
+      "FreeFormComment": "First-round parse verification"
+     },
+     "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02k54)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02k54 ns:location.country.form_of_government ?x .\n}\n",
+     "PotentialTopicEntityMention": "egypt",
+     "TopicEntityName": "Egypt",
+     "TopicEntityMid": "m.02k54",
+     "InferentialChain": [
+      "location.country.form_of_government"
+     ],
+     "Constraints": [],
+     "Time": null,
+     "Order": null,
+     "Answers": [
+      {
+       "AnswerType": "Entity",
+       "AnswerArgument": "m.01dw03",
+       "EntityName": "Semi-presidential system"
+      },
+      {
+       "AnswerType": "Entity",
+       "AnswerArgument": "m.02tz3y",
+       "EntityName": "Provisional government"
+      }
+     ]
+    }
+   ],
+   "topic_entity": {
+    "m.02k54": "Egypt"
+   },
+   "qid_topic_entity": {
+    "Q79": "Egypt"
+   },
+   "demo_id": "W2"
+  },
+  {
+   "QuestionId": "WebQTest-338",
+   "RawQuestion": "what do they call money in japan?",
+   "ProcessedQuestion": "what do they call money in japan",
+   "Parses": [
+    {
+     "ParseId": "WebQTest-338.P0",
+     "AnnotatorId": 0,
+     "AnnotatorComment": {
+      "ParseQuality": "Complete",
+      "QuestionQuality": "Good",
+      "Confidence": "Normal",
+      "FreeFormComment": "First-round parse verification"
+     },
+     "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03_3d)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03_3d ns:location.country.currency_used ?x .\n}\n",
+     "PotentialTopicEntityMention": "japan",
+     "TopicEntityName": "Japan",
+     "TopicEntityMid": "m.03_3d",
+     "InferentialChain": [
+      "location.country.currency_used"
+     ],
+     "Constraints": [],
+     "Time": null,
+     "Order": null,
+     "Answers": [
+      {
+       "AnswerType": "Entity",
+       "AnswerArgument": "m.088n7",
+       "EntityName": "Japanese yen"
+      }
+     ]
+    }
+   ],
+   "topic_entity": {
+    "m.03_3d": "Japan"
+   },
+   "qid_topic_entity": {
+    "Q17": "Japan"
+   },
+   "demo_id": "W3"
+  },
+  {
+   "QuestionId": "WebQTest-1554",
+   "RawQuestion": "what is the official language of brazil now?",
+   "ProcessedQuestion": "what is the official language of brazil now",
+   "Parses": [
+    {
+     "ParseId": "WebQTest-1554.P0",
+     "AnnotatorId": 0,
+     "AnnotatorComment": {
+      "ParseQuality": "Complete",
+      "QuestionQuality": "Good",
+      "Confidence": "Normal",
+      "FreeFormComment": "First-round parse verification"
+     },
+     "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.015fr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.015fr ns:location.country.official_language ?x .\n}\n",
+     "PotentialTopicEntityMention": "brazil",
+     "TopicEntityName": "Brazil",
+     "TopicEntityMid": "m.015fr",
+     "InferentialChain": [
+      "location.country.official_language"
+     ],
+     "Constraints": [],
+     "Time": null,
+     "Order": null,
+     "Answers": [
+      {
+       "AnswerType": "Entity",
+       "AnswerArgument": "m.05zjd",
+       "EntityName": "Portuguese Language"
+      }
+     ]
+    }
+   ],
+   "topic_entity": {
+    "m.015fr": "Brazil"
+   },
+   "qid_topic_entity": {
+    "Q155": "Brazil"
+   },
+   "demo_id": "W4"
+  }
+ ],
+ "cwq": [
+  {
+   "ID": "WebQTrn-1770_76c2e83b07b9da336705f1d623faf5a4",
+   "compositionality_type": "composition",
+   "created": "2018-02-12T22:48:28",
+   "machine_question": "what is the artist had a concert tour named The Mrs. Carter Show World Tour 's daughters name",
+   "question": "What is the name of the daughter of the artist who had the \"The Mrs. Carter Show World Tour\"?",
+   "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?c)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?c ns:music.artist.concert_tours ns:m.0qftnyr . \n?c ns:people.person.children ?x .\n}\n",
+   "webqsp_ID": "WebQTrn-1770",
+   "webqsp_question": "what is beyonce 's daughters name",
+   "topic_entity": {
+    "m.0qftnyr": "The Mrs. Carter Show World Tour"
+   },
+   "answer": "Blue Ivy",
+   "qid_topic_entity": {
+    "Q4168219": "The Mrs. Carter Show World Tour"
+   },
+   "demo_id": "C1"
+  },
+  {
+   "ID": "WebQTest-1812_c29807a955ea46fa79cdc9f7aeacba18",
+   "compositionality_type": "composition",
+   "created": "2018-02-13T06:03:28",
+   "machine_question": "where was the artist had a concert tour named Rihanna: Live in Concert Tour raised",
+   "question": "Where was the main artist featured in the Rihanna: Live in Concert Tour raised?",
+   "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?c)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?c ns:music.artist.concert_tours ns:m.09g79g8 . \n?c ns:people.person.place_of_birth ?x .\n}\n",
+   "webqsp_ID": "WebQTest-1812",
+   "webqsp_question": "where was rihanna raised",
+   "topic_entity": {
+    "m.09g79g8": "Rihanna: Live in Concert Tour"
+   },
+   "answer": "Saint Michael Parish",
+   "qid_topic_entity": {
+    "Q1101582": "Rihanna: Live in Concert Tour"
+   },
+   "demo_id": "C2"
+  },
+  {
+   "ID": "WebQTest-654_6ca8cba7511811830a04cd64a8a4cf77",
+   "compositionality_type": "composition",
+   "created": "2017-10-26T08:22:44",
+   "machine_question": "what are the place where breed Egyptian Mau originated in money called",
+   "question": "What is the currency for the place where the Egyptian Mau breed originated?",
+   "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?c)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?c ns:biology.breed_origin.breeds_originating_here ns:m.0229mb . \n?c ns:location.country.currency_used ?x .\n}\n",
+   "webqsp_ID": "WebQTest-654",
+   "webqsp_question": "what are egyptian money called",
+   "topic_entity": {
+    "m.0229mb": "Egyptian Mau"
+   },
+   "answer": "Egyptian pound",
+   "qid_topic_entity": {
+    "Q7295": "Egyptian Mau"
+   },
+   "demo_id": "C3"
+  },
+  {
+   "ID": "WebQTest-493_ac67410188d0f2258139a3c84773885e",
+   "compositionality_type": "composition",
+   "created": "2018-02-13T03:37:22",
+   "machine_question": "what type of government does the location time zone is Central Western Time Zone have",
+   "question": "What type of government does the country with Central Western Time Zone have?",
+   "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?c)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?c ns:location.location.time_zones ns:m.0y498v7 . \n?c ns:location.country.form_of_government ?x .\n}\n",
+   "webqsp_ID": "WebQTest-493",
+   "webqsp_question": "what type of government does australia have",
+   "topic_entity": {
+    "m.0y498v7": "Central Western Time Zone"
+   },
+   "answer": "Federal monarchy",
+   "qid_topic_entity": {},
+   "demo_id": "C4"
+  }
+ ]
+}

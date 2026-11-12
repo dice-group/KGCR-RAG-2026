@@ -1,93 +1,114 @@
-# Welcome to the KG Construction, Reasoning, and RAG Project Group (KGR-RAG PG)
+# ARoG Reproduction
 
-## Next meeting:
-- Thursday, 12 November 2026, PG Meeting, in room FU.519 from 14:30 to 16:30.
-  Agenda:
-  - Short technical presentation related to reproducing the model.
-  - Discuss the results and findings
+Reproduction of **ARoG** (Abstraction Reasoning on Graph) from:
 
-## Materials
-- Presentation templates:
-  - [PPT](https://github.com/dice-group/KGCR-RAG-2026/blob/main/DICE%20Power%20Point%20Design%20NEW.pptx)
-  - [Latex](https://github.com/dice-group/KGCR-RAG-2026/blob/main/DICE_presentation_template_in_latex.zip) 
-- Report template:
-  LNCS [https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj](https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj)
-     
-## KGCR-RAG PG Two-Weekly Tasks Summary
+> Ning et al. *Privacy-protected Retrieval-Augmented Generation for Knowledge Graph Question Answering.* AAAI 2026. [arXiv:2508.08785](https://arxiv.org/abs/2508.08785)
 
-Visit this [link](https://github.com/dice-group/KGCR-RAG-2026/blob/main/regular-tasks.md) for the regular task for the details
+Original code: [github.com/NLPGM/ARoG](https://github.com/NLPGM/ARoG) (commit `4867cf5`, 10 Nov 2025)
 
-## Short Technical Report Template
-### [Formal Title: e.g., Reproducing [Model Name]]
+Task 2 of the KGCR-RAG project group, WiSe 2026/27.
 
-**Author:** [Full Name] ([Matriculation Number])  
-**Affiliation:** [Project Group / Department, University]  
-**Date:** [Month Year]
+## What ARoG does
 
-### Abstract
-[150–200 words summarizing: (1) the target paper/system being reproduced, (2) the experimental constraints or modifications applied, (3) the main quantitative results compared to the reported baseline, and (4) the primary root causes identified in error analysis.]
+ARoG answers questions over a knowledge graph with an LLM, but the LLM never sees the names of the entities it retrieves, only their Freebase IDs (for example `m.01mpq7s`). ARoG has four steps:
 
----
+1. **Concept path:** the LLM turns the question into an abstract path, for example `artist -> has daughter -> person`.
+2. **Retrieval:** for each hop, the LLM picks up to 3 relations, and a SentenceTransformer ranks the facts that come back.
+3. **Entity abstraction:** each hidden entity is described by its relations, and the LLM gives it a type, for example `m.01mpq7s (musical artist)`.
+4. **Generator:** the LLM decides whether there is enough evidence. If there is, it answers with IDs, which are mapped back to names on the user's side.
 
-### 1. Introduction and Overview of an Approach or Model
-[Paragraph 1: Context and objective. Introduce the original work [1], its core claim, and the goal of this reproduction study.]
+## Repository contents
 
-[Paragraph 2: System architecture. Describe the pipeline stages objectively in prose, referencing a figure or compact table.]
+```
+ARoG-reproduction/
+├── README.md
+├── demo_kit/                    launcher and local knowledge graph
+│   ├── arog_demo.py             runs the original ARoG code with the runtime fixes
+│   ├── mini_kg_server.py        local SPARQL endpoint (Freebase format)
+│   ├── mini_kg/                 the subgraph: 69 entities, 226 triples
+│   ├── demo_questions.json      the 8 evaluated questions (4 WebQSP, 4 CWQ)
+│   ├── build_mini_kg.py         script that built the subgraph from the benchmark files
+│   └── requirements_windows.txt
+├── results/
+│   ├── run1/                    results.json, transcript.txt, LLM prompts, ARoG output
+│   └── run2/
+└── report/
+    └── ARoG_Reproduction_Report.pdf
+```
 
-| Stage | Component / Module | Function |
-| :--- | :--- | :--- |
-| 1 | [Module A] | [Concise description of input, processing, and output] |
-| 2 | [Module B] | [Concise description of input, processing, and output] |
-| 3 | [Module C] | [Concise description of input, processing, and output] |
+The original ARoG code is **not** copied here. Get it from the authors' repository and put `demo_kit/` inside it, next to `main_freebase.py`.
 
----
+## Setup
 
-### 2. Experimental Setup
-* **Dataset & Metrics:** [Name the benchmark dataset(s) [2], subset size evaluated, and exact evaluation metrics (e.g., Accuracy, Hits@1).]
-* **Models & Hyperparameters:** [Specify backbone LLMs, embedding models, context lengths, temperature settings, and any caps/thresholds.]
-* **Environment & Implementation Notes:** [State hardware/OS specs and summarize any required bug fixes or environment patches in 1–2 sentences.]
+Tested on Windows with Python 3.10 (Miniconda) and 8 GB RAM. No GPU is needed.
 
----
+```bash
+git clone https://github.com/NLPGM/ARoG.git
+cd ARoG
+# copy the demo_kit folder from this branch into this folder
+conda create -n arog python=3.10 -c conda-forge --override-channels -y
+conda activate arog
+pip install -r demo_kit/requirements_windows.txt
+```
 
-### 3. Results and Error Analysis
-[Paragraph 1: High-level summary of quantitative performance compared to the original paper.]
+Put your OpenAI API key in `demo_kit/openai_key.txt`, or set the `OPENAI_API_KEY` environment variable. Never commit the key.
 
-| Benchmark / Subset | Reported Baseline | Reproduced Result | Delta ($\Delta$) |
-| :--- | :---: | :---: | :---: |
-| [Dataset / Split 1] | 93.33% | 68.00% | -25.33 pp |
-| [Dataset / Split 2] | 74.70% | 87.50% | +12.80 pp |
+## How to run
 
-#### Error Analysis
-[Group observed failures into 2–4 distinct analytical categories with concrete examples:]
+Open three terminals, all in the ARoG folder with the `arog` environment active:
 
----
+```bash
+python demo_kit/mini_kg_server.py        # terminal 1: knowledge graph on port 8890
+python lm_server.py                      # terminal 2: SentenceTransformer on port 5001
+python demo_kit/arog_demo.py check       # terminal 3: check that everything works
+python demo_kit/arog_demo.py run         # run all 8 questions
+python demo_kit/arog_demo.py show        # show the latest run again
+```
 
-### 4. Limitations and Conclusion
-[Paragraph 1: Threats to validity and architectural limitations (e.g., smaller parameter count, sample size, privacy leaks, or fallback behavior).]
+To run against a full Freebase SPARQL endpoint instead:
 
-[Paragraph 2: Final synthesis of what was successfully verified, key lessons learned, and 2–3 concrete directions for future work.]
+```bash
+python demo_kit/arog_demo.py benchmark --sparql http://<server>:8890/sparql --dataset webqsp --limit 30
+```
 
----
+## Settings
 
-### References
-Please follow the template provided
+These are the same as the paper: `gpt-4o-mini-2024-07-18`, width 3, depth 3, temperature 0 for reasoning and 0.4 for exploration.
 
-## Communication platform and tools
-Communication platforms and tools that can be used in this PG:
+## Results
 
-1. Elements messaging
-   Real-time chat for day-to-day coordination and quick questions. We can ask for an invitation to join the group chat.
-   
-   → [Join the Elements group](https://element.cs.uni-paderborn.de/)
+The evaluation used 8 questions, 2 runs, and the local subgraph. Metric: Hits@1, scored with the authors' matching rule.
 
-3. Sciebo cloud storage
-   Shared, versioned space for project files and documents. Use it to upload, review, and collaborate on materials.
+| | Run 1 | Run 2 |
+|---|---|---|
+| Correct (all 8) | 8/8 | 7/8 |
+| Correct (6 filtered questions) | 6/6 | 5/6 |
+| LLM calls | 77 | 76 |
+| Hidden entity names found in prompts | 0 | 0 |
 
-   → [Open the Sciebo folder](https://uni-paderborn.sciebo.de/)
+The paper reports these figures on the full Freebase (Total / Filtered): WebQSP 74.7 / 58.9, CWQ 60.0 / 36.3, GrailQA 78.7 / 71.8. Our numbers are not comparable, because we used 8 questions and a small subgraph.
 
-4. Weekly report form
-  Submit your report at the start of each week. Share progress, blockers, and planned next steps so we can prepare for the meeting.
+## Issues found in the original code
 
-   Please complete the form before the weekly meeting.
+The launcher fixes these at runtime, without editing the authors' files:
 
-   → [Fill out the weekly report form](https://umfragen.uni-paderborn.de/index.php/563876?lang=en)
+- OpenAI calls go through a proxy (`socks5://127.0.0.1:7891`) that only existed on the authors' machine.
+- The SPARQL and SentenceTransformer addresses are placeholders.
+- `utils.py` expects port 5000, but `lm_server.py` runs on port 5001.
+- `requirements.txt` includes Linux-only packages (vllm, ray) and is missing `httpx-socks`, `nltk`, `requests` and `tqdm`.
+- The evaluation command in the README uses the wrong output file name.
+- `eval.py` only scores questions that plain chain-of-thought already answers.
+
+## Key findings and limitations
+
+- **Type errors propagate.** In W1 the correct entity was retrieved, but it was typed as a "geographic location", so it was lost and the LLM answered from memory instead.
+- **The scoring rule is lenient.** The same memory answer was scored correct in one run and wrong in the other, depending only on answer format.
+- **Privacy covers names only.** The question, the relation names and the LLM's own knowledge still reveal information, and Freebase IDs are public.
+- **Fallback is silent.** When the search finds nothing, the code answers from the LLM's memory without flagging it.
+- **Reproducibility.** Full Freebase needs about 400 GB of disk, and `gpt-4o-mini-2024-07-18` shuts down on 14 January 2027.
+
+See `report/ARoG_Reproduction_Report.pdf` for details and proposed fixes.
+
+## Author
+
+Ahmed, KGCR-RAG Project Group, Paderborn University

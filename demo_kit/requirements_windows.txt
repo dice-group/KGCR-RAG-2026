@@ -1,0 +1,43 @@
+# Packages for running ARoG on Windows with Python 3.10.
+#
+# Install with (from the ARoG-main folder, inside the "arog" conda environment):
+#     pip install -r demo_kit\requirements_windows.txt
+#
+# Why not the authors' requirements.txt?
+#   It lists 148 packages, including vllm and ray, which only install on Linux and are not
+#   needed when the language model is OpenAI. Installing it on Windows fails part way.
+#   This file keeps the authors' exact versions for every package their code imports, and adds
+#   four that their code imports but their list forgot (httpx-socks, nltk, requests, tqdm).
+#
+# torch from the normal package index is the CPU version on Windows. That is what we want:
+# the embedding model is small and the laptop's 2 GB graphics card is not needed.
+
+# Talking to OpenAI
+openai==1.57.4
+httpx==0.28.1
+httpx-socks==0.10.0
+pydantic==2.10.5
+
+# Talking to the knowledge graph (SPARQL) and running the mini graph server
+SPARQLWrapper==2.0.0
+rdflib==7.1.2
+Flask==3.1.0
+Werkzeug==3.1.3
+requests==2.32.3
+
+# The embedding model used by lm_server.py (Module 3, retrieval)
+numpy==1.26.4
+torch==2.5.1
+transformers==4.48.0
+tokenizers==0.21.0
+huggingface-hub==0.27.1
+safetensors==0.5.2
+sentence-transformers==3.3.1
+scikit-learn==1.6.1
+scipy==1.15.1
+
+# Imported by the authors' utils.py at start-up, so they must be present
+nltk==3.9.1
+rank-bm25==0.2.2
+zhipuai==2.1.5.20250106
+tqdm==4.67.1

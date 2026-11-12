@@ -1,0 +1,249 @@
+Loading the ARoG code (this takes 10 to 30 seconds the first time)...
+------------------------------------------------------------------------------
+[W1] what language does egyptian people speak?
+     Entity named in the question (the LLM may see it): Egypt
+     Setting: filtered (the LLM cannot answer it from memory)
+  Module 2  Concept path written by the LLM (its own guess; used on your side to rank facts):
+              Egyptian people (people) -> speak -> Arabic (language)
+  --- Hop 1 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'Egypt':
+              location.country.official_language, location.country.capital, government.form_of_government.countries
+  Module 1  Hidden entity m.025rvv7 described to the LLM as 'geographic location'   (your private map: Modern Standard Arabic)
+  Module 1  Hidden entity m.01w2v described to the LLM as 'geographic location'   (your private map: Cairo)
+  Module 1  Hidden entity m.01dw03 described to the LLM as 'political entity'   (your private map: Semi-presidential system)
+  Module 1  Hidden entity m.02tz3y described to the LLM as 'political entity'   (your private map: Provisional government)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              Egypt, location.country.official_language, m.025rvv7 (geographic location)
+              m.02tz3y (political entity), government.form_of_government.countries, Egypt
+              Egypt, location.country.capital, m.01w2v (geographic location)
+  Module 4  Enough evidence? No, so ARoG takes another hop.
+  --- Hop 2 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'm.025rvv7 (geographic location)':
+              (none)
+  Module 3  LLM picked relations next to 'm.01w2v (geographic location)':
+              (none)
+  Module 3  LLM picked relations next to 'm.02tz3y (political entity)':
+              location.country.form_of_government
+  Module 1  Hidden entity m.02k54 described to the LLM as 'country'   (your private map: Egypt)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              (nothing found)
+  Module 4  Enough evidence? No, so ARoG takes another hop.
+  Result    After your private ID-to-name map: Egyptian people primarily speak Arabic, specifically Egyptian Arabic, which is a dialect of the Arabic language.   -> WRONG
+            Benchmark answer: Modern Standard Arabic
+            LLM calls: 12 | tokens: 5,063 | time: 15 s | cost: $0.0010
+  Privacy   12 prompts sent to the LLM; they contain 3 hidden IDs and no hidden names.
+------------------------------------------------------------------------------
+[W2] what kind of government is egypt?
+     Entity named in the question (the LLM may see it): Egypt
+     Setting: filtered (the LLM cannot answer it from memory)
+  Module 2  Concept path written by the LLM (its own guess; used on your side to rank facts):
+              Egypt (country) -> type of government -> presidential republic (government type)
+  --- Hop 1 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'Egypt':
+              location.country.form_of_government, government.form_of_government.countries, location.country.capital
+  Module 1  Hidden entity m.02tz3y described to the LLM as 'political entity'   (your private map: Provisional government)
+  Module 1  Hidden entity m.01dw03 described to the LLM as 'political entity'   (your private map: Semi-presidential system)
+  Module 1  Hidden entity m.01w2v described to the LLM as 'geographic location'   (your private map: Cairo)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              Egypt, location.country.form_of_government, m.01dw03 (political entity)
+              m.01dw03 (political entity), government.form_of_government.countries, Egypt
+              Egypt, location.country.form_of_government, m.02tz3y (political entity)
+              m.02tz3y (political entity), government.form_of_government.countries, Egypt
+              Egypt, location.country.capital, m.01w2v (geographic location)
+  Module 4  Enough evidence? Yes. The LLM answers: {m.01dw03 (political entity), m.02tz3y (political entity)}
+  Result    After your private ID-to-name map: Semi-presidential system (political entity), Provisional government (political entity)   -> CORRECT
+            Benchmark answer: Semi-presidential system, Provisional government
+            LLM calls: 7 | tokens: 3,082 | time: 9 s | cost: $0.0006
+  Privacy   7 prompts sent to the LLM; they contain 3 hidden IDs and no hidden names.
+------------------------------------------------------------------------------
+[W3] what do they call money in japan?
+     Entity named in the question (the LLM may see it): Japan
+     Setting: filtered (the LLM cannot answer it from memory)
+  Module 2  Concept path written by the LLM (its own guess; used on your side to rank facts):
+              Japan (country) -> currency called -> yen (money)
+  --- Hop 1 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'Japan':
+              location.country.currency_used, finance.currency.countries_used, location.country.languages_spoken
+  Module 1  Hidden entity m.088n7 described to the LLM as 'currency'   (your private map: Japanese yen)
+  Module 1  Hidden entity m.02hwhyv described to the LLM as 'language'   (your private map: Korean Language)
+  Module 1  Hidden entity m.03_9r described to the LLM as 'language'   (your private map: Japanese Language)
+  Module 1  Hidden entity m.02h40lc described to the LLM as 'language'   (your private map: English Language)
+  Module 1  Hidden entity m.02jcw described to the LLM as 'language'   (your private map: Esperanto Language)
+  Module 1  Hidden entity m.0jdg7 described to the LLM as 'language'   (your private map: Ainu Language)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              Japan, location.country.currency_used, m.088n7 (currency)
+              m.088n7 (currency), finance.currency.countries_used, Japan
+              Japan, location.country.languages_spoken, m.02jcw (language)
+              Japan, location.country.languages_spoken, m.03_9r (language)
+  Module 4  Enough evidence? Yes. The LLM answers: {m.088n7 (currency)}
+  Result    After your private ID-to-name map: Japanese yen (currency)   -> CORRECT
+            Benchmark answer: Japanese yen
+            LLM calls: 7 | tokens: 2,937 | time: 10 s | cost: $0.0005
+  Privacy   7 prompts sent to the LLM; they contain 3 hidden IDs and no hidden names.
+------------------------------------------------------------------------------
+[W4] what is the official language of brazil now?
+     Entity named in the question (the LLM may see it): Brazil
+     Setting: filtered (the LLM cannot answer it from memory)
+  Module 2  Concept path written by the LLM (its own guess; used on your side to rank facts):
+              Brazil (country) -> official language -> Portuguese (language)
+  --- Hop 1 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'Brazil':
+              location.country.official_language, location.country.languages_spoken, language.human_language.countries_spoken_in
+  Module 1  Hidden entity m.05zjd described to the LLM as 'language'   (your private map: Portuguese Language)
+  Module 1  Hidden entity m.02bjrlw described to the LLM as 'language'   (your private map: Italian Language)
+  Module 1  Hidden entity m.02zj58 described to the LLM as 'language'   (your private map: Brazilian Portuguese)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              Brazil, location.country.official_language, m.05zjd (language)
+              Brazil, location.country.languages_spoken, m.05zjd (language)
+              m.05zjd (language), language.human_language.countries_spoken_in, Brazil
+              Brazil, location.country.languages_spoken, m.02zj58 (language)
+              m.02zj58 (language), language.human_language.countries_spoken_in, Brazil
+              Brazil, location.country.languages_spoken, m.02bjrlw (language)
+  Module 4  Enough evidence? Yes. The LLM answers: {m.05zjd (language)}
+  Result    After your private ID-to-name map: Portuguese Language (language)   -> CORRECT
+            Benchmark answer: Portuguese Language
+            LLM calls: 7 | tokens: 3,103 | time: 327 s | cost: $0.0006
+  Privacy   7 prompts sent to the LLM; they contain 3 hidden IDs and no hidden names.
+------------------------------------------------------------------------------
+[C1] What is the name of the daughter of the artist who had the "The Mrs. Carter Show World Tour"?
+     Entity named in the question (the LLM may see it): The Mrs. Carter Show World Tour
+     Setting: total only (plain CoT already answers it)
+  Module 2  Concept path written by the LLM (its own guess; used on your side to rank facts):
+              Beyoncé (artist) -> had -> The Mrs. Carter Show World Tour
+              Beyoncé (artist) -> has daughter named -> Blue Ivy Carter (daughter)
+  --- Hop 1 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'The Mrs. Carter Show World Tour':
+              music.concert_tour.artist, music.artist.concert_tours, music.concert_tour.start_date
+  Module 1  Hidden entity m.01mpq7s described to the LLM as 'musical artist'   (your private map: Beyoncé Knowles)
+  Module 1  Hidden value  m.ipqkqxhysn described to the LLM as 'specific value'   (your private map: 2013-04-15)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              The Mrs. Carter Show World Tour, music.concert_tour.artist, m.01mpq7s (musical artist)
+              m.01mpq7s (musical artist), music.artist.concert_tours, The Mrs. Carter Show World Tour
+              The Mrs. Carter Show World Tour, music.concert_tour.start_date, m.ipqkqxhysn (specific value)
+  Module 4  Enough evidence? No, so ARoG takes another hop.
+  --- Hop 2 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'm.ipqkqxhysn (specific value)':
+              (none)
+  Module 3  LLM picked relations next to 'm.01mpq7s (musical artist)':
+              people.person.children, people.person.parents
+  Module 1  Hidden entity m.0hvsrmc described to the LLM as 'family relationship'   (your private map: Blue Ivy Carter)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              m.01mpq7s (musical artist), people.person.children, m.0hvsrmc (family relationship)
+              m.0hvsrmc (family relationship), people.person.parents, m.01mpq7s (musical artist)
+  Module 4  Enough evidence? Yes. The LLM answers: {m.0hvsrmc (family relationship)}
+  Result    After your private ID-to-name map: Blue Ivy Carter (family relationship)   -> CORRECT
+            Benchmark answer: Blue Ivy
+            LLM calls: 12 | tokens: 5,120 | time: 13 s | cost: $0.0010
+  Privacy   11 prompts sent to the LLM; they contain 3 hidden IDs and no hidden names.
+------------------------------------------------------------------------------
+[C2] Where was the main artist featured in the Rihanna: Live in Concert Tour raised?
+     Entity named in the question (the LLM may see it): Rihanna: Live in Concert Tour
+     Setting: filtered (the LLM cannot answer it from memory)
+  Module 2  Concept path written by the LLM (its own guess; used on your side to rank facts):
+              Rihanna (main artist) -> featured in -> Rihanna: Live in Concert Tour (event)
+              Rihanna (main artist) -> raised in -> Barbados (location)
+  --- Hop 1 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'Rihanna: Live in Concert Tour':
+              music.artist.concert_tours, music.concert_tour.artist
+  Module 1  Hidden entity m.06mt91 described to the LLM as 'musical artist'   (your private map: Rihanna)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              m.06mt91 (musical artist), music.artist.concert_tours, Rihanna: Live in Concert Tour
+              Rihanna: Live in Concert Tour, music.concert_tour.artist, m.06mt91 (musical artist)
+  Module 4  Enough evidence? No, so ARoG takes another hop.
+  --- Hop 2 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'm.06mt91 (musical artist)':
+              people.person.place_of_birth, location.location.people_born_here
+  Module 1  Hidden entity m.02p5kp described to the LLM as 'geographic location'   (your private map: Saint Michael Parish)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              m.06mt91 (musical artist), people.person.place_of_birth, m.02p5kp (geographic location)
+              m.02p5kp (geographic location), location.location.people_born_here, m.06mt91 (musical artist)
+  Module 4  Enough evidence? Yes. The LLM answers: {m.02p5kp (geographic location)}
+  Result    After your private ID-to-name map: Saint Michael Parish (geographic location)   -> CORRECT
+            Benchmark answer: Saint Michael Parish
+            LLM calls: 10 | tokens: 4,694 | time: 11 s | cost: $0.0009
+  Privacy   10 prompts sent to the LLM; they contain 2 hidden IDs and no hidden names.
+------------------------------------------------------------------------------
+[C3] What is the currency for the place where the Egyptian Mau breed originated?
+     Entity named in the question (the LLM may see it): Egyptian Mau
+     Setting: total only (plain CoT already answers it)
+  Module 2  Concept path written by the LLM (its own guess; used on your side to rank facts):
+              Egyptian Mau (breed) -> originated in -> Egypt (location)
+              Egypt (location) -> currency -> Egyptian pound (currency)
+  --- Hop 1 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'Egyptian Mau':
+              biology.animal_breed.place_of_origin, biology.breed_origin.breeds_originating_here
+  Module 1  Hidden entity m.02k54 described to the LLM as 'geographic location'   (your private map: Egypt)
+  Module 1  Hidden entity m.02k54 described to the LLM as 'geographic location, country'   (your private map: Egypt)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              Egyptian Mau, biology.animal_breed.place_of_origin, m.02k54 (geographic location)
+              m.02k54 (geographic location, country), biology.breed_origin.breeds_originating_here, Egyptian Mau
+  Module 4  Enough evidence? No, so ARoG takes another hop.
+  --- Hop 2 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'm.02k54 (geographic location, country)':
+              biology.breed_origin.breeds_originating_here, location.country.currency_used, finance.currency.countries_used
+  Module 1  Hidden entity m.0229mb described to the LLM as 'geographic location'   (your private map: Egyptian Mau)
+  Module 1  Hidden entity m.04phzg described to the LLM as 'currency'   (your private map: Egyptian pound)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              m.02k54 (geographic location, country), location.country.currency_used, m.04phzg (currency)
+              m.04phzg (currency), finance.currency.countries_used, m.02k54 (geographic location, country)
+  Module 4  Enough evidence? Yes. The LLM answers: {m.04phzg (currency)}
+  Result    After your private ID-to-name map: Egyptian pound (currency)   -> CORRECT
+            Benchmark answer: Egyptian pound
+            LLM calls: 11 | tokens: 5,033 | time: 12 s | cost: $0.0010
+  Privacy   11 prompts sent to the LLM; they contain 2 hidden IDs and no hidden names.
+------------------------------------------------------------------------------
+[C4] What type of government does the country with Central Western Time Zone have?
+     Entity named in the question (the LLM may see it): Central Western Time Zone
+     Setting: filtered (the LLM cannot answer it from memory)
+  Module 2  Concept path written by the LLM (its own guess; used on your side to rank facts):
+              Central Western Time Zone (time zone) -> includes countries -> United States (country), Mexico (country)
+              United States (country) -> type of government -> federal republic (government type)
+              Mexico (country) -> type of government -> federal republic (government type)
+  --- Hop 1 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'Central Western Time Zone':
+              time.time_zone.locations_in_this_time_zone, location.location.time_zones
+  Module 1  Hidden entity m.0chghy described to the LLM as 'country'   (your private map: Australia)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              Central Western Time Zone, time.time_zone.locations_in_this_time_zone, m.0chghy (country)
+              m.0chghy (country), location.location.time_zones, Central Western Time Zone
+  Module 4  Enough evidence? No, so ARoG takes another hop.
+  --- Hop 2 ------------------------------------------------------------
+  Module 3  LLM picked relations next to 'm.0chghy (country)':
+              location.country.form_of_government, government.form_of_government.countries, location.country.languages_spoken
+  Module 1  Hidden entity m.01q20 described to the LLM as 'political entity'   (your private map: Constitutional monarchy)
+  Module 1  Hidden entity m.018wl5 described to the LLM as 'political entity'   (your private map: Parliamentary system)
+  Module 1  Hidden entity m.0g3y9q described to the LLM as 'political entity'   (your private map: Federal monarchy)
+  Module 1  Hidden entity m.04gd7 described to the LLM as 'language'   (your private map: Lojban)
+  Module 1  Hidden entity m.02h40lc described to the LLM as 'language'   (your private map: English Language)
+  Module 1  Hidden entity m.02jcw described to the LLM as 'language'   (your private map: Esperanto Language)
+  Module 3  Evidence kept for this hop (exactly what the LLM receives):
+              m.0chghy (country), location.country.form_of_government, m.0g3y9q (political entity)
+              m.0g3y9q (political entity), government.form_of_government.countries, m.0chghy (country)
+              m.0chghy (country), location.country.form_of_government, m.018wl5 (political entity)
+              m.018wl5 (political entity), government.form_of_government.countries, m.0chghy (country)
+              m.0chghy (country), location.country.form_of_government, m.01q20 (political entity)
+              m.01q20 (political entity), government.form_of_government.countries, m.0chghy (country)
+  Module 4  Enough evidence? Yes. The LLM answers: {m.0g3y9q (political entity), m.018wl5 (political entity), m.01q20 (political entity)}
+  Result    After your private ID-to-name map: Federal monarchy (political entity), Parliamentary system (political entity), Constitutional monarchy (political entity)   -> CORRECT
+            Benchmark answer: Constitutional monarchy, Federal monarchy, Parliamentary system
+            LLM calls: 11 | tokens: 5,276 | time: 19 s | cost: $0.0011
+  Privacy   11 prompts sent to the LLM; they contain 4 hidden IDs and no hidden names.
+
+==============================================================================
+ARoG demo on the mini knowledge graph
+==============================================================================
+ID   Setting   Result    Calls   Tokens   Hidden names leaked
+W1   filtered  wrong        12    5,063                  none
+W2   filtered  correct       7    3,082                  none
+W3   filtered  correct       7    2,937                  none
+W4   filtered  correct       7    3,103                  none
+C1   total     correct      12    5,120                  none
+C2   filtered  correct      10    4,694                  none
+C3   total     correct      11    5,033                  none
+C4   filtered  correct      11    5,276                  none
+------------------------------------------------------------------------------
+Correct: 7 of 8   (filtered questions: 5 of 6)
+LLM calls: 77 | tokens: 34,308 | estimated cost: $0.007
+Privacy check: hidden names found in prompts for 0 of 8 questions.
+Saved in: C:\Users\AMIN\Downloads\ARoG-main\ARoG-main\demo_kit\outputs\run_20261101_161759_demo
+Note: hand-picked questions on a small graph built from benchmark data. This demonstrates the method; it does not reproduce the paper's accuracy, which needs the full Freebase.

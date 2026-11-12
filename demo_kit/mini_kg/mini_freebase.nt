@@ -1,0 +1,226 @@
+<http://rdf.freebase.com/ns/m.0c9rw5> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0f8l9c> .
+<http://rdf.freebase.com/ns/m.0chghy> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.04gd7> .
+<http://rdf.freebase.com/ns/m.02l6h> <http://rdf.freebase.com/ns/finance.currency.countries_used> <http://rdf.freebase.com/ns/m.0f8l9c> .
+<http://rdf.freebase.com/ns/m.01mpq7s> <http://rdf.freebase.com/ns/music.artist.concert_tours> <http://rdf.freebase.com/ns/m.0qftnyr> .
+<http://rdf.freebase.com/ns/m.0chghy> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01q20> .
+<http://rdf.freebase.com/ns/m.04306rv> <http://rdf.freebase.com/ns/type.object.name> "German Language"@en .
+<http://rdf.freebase.com/ns/m.04lmb2> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.03_9r> <http://rdf.freebase.com/ns/type.object.name> "Japanese Language"@en .
+<http://rdf.freebase.com/ns/m.02nt2n> <http://rdf.freebase.com/ns/type.object.name> "Frisian, Northern Language"@en .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.02hwhyv> .
+<http://rdf.freebase.com/ns/m.018wl5> <http://rdf.freebase.com/ns/type.object.name> "Parliamentary system"@en .
+<http://rdf.freebase.com/ns/m.0j729> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.09c7w0> .
+<http://rdf.freebase.com/ns/m.0b90_r> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01d9r3> .
+<http://rdf.freebase.com/ns/m.02h40lc> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.03_3d> .
+<http://rdf.freebase.com/ns/m.02zj58> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.015fr> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01fpfn> .
+<http://rdf.freebase.com/ns/m.02k54> <http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here> <http://rdf.freebase.com/ns/m.0229mb> .
+<http://rdf.freebase.com/ns/m.025rvv7> <http://rdf.freebase.com/ns/type.object.name> "Modern Standard Arabic"@en .
+<http://rdf.freebase.com/ns/m.02k54> <http://rdf.freebase.com/ns/location.country.official_language> <http://rdf.freebase.com/ns/m.025rvv7> .
+<http://rdf.freebase.com/ns/m.02jcw> <http://rdf.freebase.com/ns/type.object.name> "Esperanto Language"@en .
+<http://rdf.freebase.com/ns/m.06nm1> <http://rdf.freebase.com/ns/type.object.name> "Spanish Language"@en .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01q20> .
+<http://rdf.freebase.com/ns/m.01q20> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.06mkj> .
+<http://rdf.freebase.com/ns/m.01w2v> <http://rdf.freebase.com/ns/type.object.name> "Cairo"@en .
+<http://rdf.freebase.com/ns/m.01dw03> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0f8l9c> .
+<http://rdf.freebase.com/ns/m.017k6> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.06mkj> .
+<http://rdf.freebase.com/ns/m.04szc> <http://rdf.freebase.com/ns/type.object.name> "Monarchy"@en .
+<http://rdf.freebase.com/ns/m.01mpq7s> <http://rdf.freebase.com/ns/type.object.name> "Beyoncé Knowles"@en .
+<http://rdf.freebase.com/ns/m.018wl5> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0chghy> .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0drnm> .
+<http://rdf.freebase.com/ns/m.0b90_r> <http://rdf.freebase.com/ns/type.object.name> "Mexico"@en .
+<http://rdf.freebase.com/ns/m.03rjj> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0glnsx> .
+<http://rdf.freebase.com/ns/m.03385m> <http://rdf.freebase.com/ns/type.object.name> "Brazilian real"@en .
+<http://rdf.freebase.com/ns/m.03rjj> <http://rdf.freebase.com/ns/location.country.capital> <http://rdf.freebase.com/ns/m.06c62> .
+<http://rdf.freebase.com/ns/m.04306rv> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.0f8l9c> <http://rdf.freebase.com/ns/location.country.currency_used> <http://rdf.freebase.com/ns/m.01qyjx> .
+<http://rdf.freebase.com/ns/m.0glnsx> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.03rjj> .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0j729> .
+<http://rdf.freebase.com/ns/m.0chghy> <http://rdf.freebase.com/ns/location.location.time_zones> <http://rdf.freebase.com/ns/m.0y49btq> .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.0140n_> .
+<http://rdf.freebase.com/ns/m.0140n_> <http://rdf.freebase.com/ns/type.object.name> "Bavarian Language"@en .
+<http://rdf.freebase.com/ns/m.0c9rw5> <http://rdf.freebase.com/ns/type.object.name> "Constitutional republic"@en .
+<http://rdf.freebase.com/ns/m.019rdm> <http://rdf.freebase.com/ns/type.object.name> "Japan Time Zone"@en .
+<http://rdf.freebase.com/ns/m.0j729> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.015fr> .
+<http://rdf.freebase.com/ns/m.03rjj> <http://rdf.freebase.com/ns/type.object.name> "Italy"@en .
+<http://rdf.freebase.com/ns/m.0g3y9q> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0chghy> .
+<http://rdf.freebase.com/ns/m.02tz3y> <http://rdf.freebase.com/ns/type.object.name> "Provisional government"@en .
+<http://rdf.freebase.com/ns/m.06mt91> <http://rdf.freebase.com/ns/people.person.place_of_birth> <http://rdf.freebase.com/ns/m.02p5kp> .
+<http://rdf.freebase.com/ns/m.01q20> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.03_3d> .
+<http://rdf.freebase.com/ns/m.06d010> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.0chghy> <http://rdf.freebase.com/ns/type.object.name> "Australia"@en .
+<http://rdf.freebase.com/ns/m.0229mb> <http://rdf.freebase.com/ns/biology.animal_breed.place_of_origin> <http://rdf.freebase.com/ns/m.02k54> .
+<http://rdf.freebase.com/ns/m.0c9rw5> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.09c7w0> .
+<http://rdf.freebase.com/ns/m.04gd7> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.0chghy> .
+<http://rdf.freebase.com/ns/m.09g79g8> <http://rdf.freebase.com/ns/music.concert_tour.artist> <http://rdf.freebase.com/ns/m.06mt91> .
+<http://rdf.freebase.com/ns/m.018wl5> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.06mkj> .
+<http://rdf.freebase.com/ns/m.0y49btq> <http://rdf.freebase.com/ns/type.object.name> "Heard and McDonald Islands Time Zone"@en .
+<http://rdf.freebase.com/ns/m.01dw03> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.02k54> .
+<http://rdf.freebase.com/ns/m.0qftnyr> <http://rdf.freebase.com/ns/type.object.name> "The Mrs. Carter Show World Tour"@en .
+<http://rdf.freebase.com/ns/m.0y49btq> <http://rdf.freebase.com/ns/time.time_zone.locations_in_this_time_zone> <http://rdf.freebase.com/ns/m.0chghy> .
+<http://rdf.freebase.com/ns/m.02k54> <http://rdf.freebase.com/ns/location.country.capital> <http://rdf.freebase.com/ns/m.01w2v> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.currency_used> <http://rdf.freebase.com/ns/m.02l6h> .
+<http://rdf.freebase.com/ns/m.015fr> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.02bjrlw> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.018wl5> .
+<http://rdf.freebase.com/ns/m.0kz1h> <http://rdf.freebase.com/ns/finance.currency.countries_used> <http://rdf.freebase.com/ns/m.0chghy> .
+<http://rdf.freebase.com/ns/m.015fr> <http://rdf.freebase.com/ns/location.country.official_language> <http://rdf.freebase.com/ns/m.05zjd> .
+<http://rdf.freebase.com/ns/m.02bjrlw> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.015fr> .
+<http://rdf.freebase.com/ns/m.02hwhyv> <http://rdf.freebase.com/ns/type.object.name> "Korean Language"@en .
+<http://rdf.freebase.com/ns/m.02k54> <http://rdf.freebase.com/ns/type.object.name> "Egypt"@en .
+<http://rdf.freebase.com/ns/m.0229mb> <http://rdf.freebase.com/ns/type.object.name> "Egyptian Mau"@en .
+<http://rdf.freebase.com/ns/m.0jdg7> <http://rdf.freebase.com/ns/type.object.name> "Ainu Language"@en .
+<http://rdf.freebase.com/ns/m.05l0r> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.06mkj> .
+<http://rdf.freebase.com/ns/m.0f8l9c> <http://rdf.freebase.com/ns/location.country.currency_formerly_used> <http://rdf.freebase.com/ns/m.0298sr> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.06nm1> .
+<http://rdf.freebase.com/ns/m.01mpq7s> <http://rdf.freebase.com/ns/people.person.children> <http://rdf.freebase.com/ns/m.0hvsrmc> .
+<http://rdf.freebase.com/ns/m.02hwhyv> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.03_3d> .
+<http://rdf.freebase.com/ns/m.0chghy> <http://rdf.freebase.com/ns/location.location.time_zones> <http://rdf.freebase.com/ns/m.0y498v7> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.017k6> .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/location.country.currency_used> <http://rdf.freebase.com/ns/m.088n7> .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01fpfn> .
+<http://rdf.freebase.com/ns/m.02k54> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.02tz3y> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/type.object.name> "Spain"@en .
+<http://rdf.freebase.com/ns/m.06d010> <http://rdf.freebase.com/ns/type.object.name> "Saxon, Upper Language"@en .
+<http://rdf.freebase.com/ns/m.0j729> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0b90_r> .
+<http://rdf.freebase.com/ns/m.0j729> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.0j729> <http://rdf.freebase.com/ns/type.object.name> "Federal republic"@en .
+<http://rdf.freebase.com/ns/m.01qyjx> <http://rdf.freebase.com/ns/type.object.name> "CFP franc"@en .
+<http://rdf.freebase.com/ns/m.0c9rw5> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.015fr> .
+<http://rdf.freebase.com/ns/m.018wl5> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.03_3d> .
+<http://rdf.freebase.com/ns/m.02j9z> <http://rdf.freebase.com/ns/base.locations.continents.countries_within> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.012ts8> <http://rdf.freebase.com/ns/finance.currency.countries_used> <http://rdf.freebase.com/ns/m.0b90_r> .
+<http://rdf.freebase.com/ns/m.01fpfn> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.03rjj> .
+<http://rdf.freebase.com/ns/m.02k54> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01dw03> .
+<http://rdf.freebase.com/ns/m.056_y> <http://rdf.freebase.com/ns/type.object.name> "Madrid"@en .
+<http://rdf.freebase.com/ns/m.0y498v7> <http://rdf.freebase.com/ns/time.time_zone.locations_in_this_time_zone> <http://rdf.freebase.com/ns/m.0chghy> .
+<http://rdf.freebase.com/ns/m.02p5kp> <http://rdf.freebase.com/ns/type.object.name> "Saint Michael Parish"@en .
+<http://rdf.freebase.com/ns/m.04krl2> <http://rdf.freebase.com/ns/type.object.name> "mx"@en .
+<http://rdf.freebase.com/ns/m.0b90_r> <http://rdf.freebase.com/ns/location.country.internet_tld> <http://rdf.freebase.com/ns/m.04krl2> .
+<http://rdf.freebase.com/ns/m.02bjrlw> <http://rdf.freebase.com/ns/type.object.name> "Italian Language"@en .
+<http://rdf.freebase.com/ns/m.017k6> <http://rdf.freebase.com/ns/type.object.name> "Basque Language"@en .
+<http://rdf.freebase.com/ns/m.0glnsx> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.04phzg> <http://rdf.freebase.com/ns/finance.currency.countries_used> <http://rdf.freebase.com/ns/m.02k54> .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/type.object.name> "Japan"@en .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.03_9r> .
+<http://rdf.freebase.com/ns/m.01d9r3> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.015fr> .
+<http://rdf.freebase.com/ns/m.01m69> <http://rdf.freebase.com/ns/type.object.name> "Catalan language"@en .
+<http://rdf.freebase.com/ns/m.0f8l9c> <http://rdf.freebase.com/ns/type.object.name> "France"@en .
+<http://rdf.freebase.com/ns/m.09c7w0> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0j729> .
+<http://rdf.freebase.com/ns/m.01fpfn> <http://rdf.freebase.com/ns/type.object.name> "Unitary state"@en .
+<http://rdf.freebase.com/ns/m.0hvsrmc> <http://rdf.freebase.com/ns/people.person.parents> <http://rdf.freebase.com/ns/m.01mpq7s> .
+<http://rdf.freebase.com/ns/m.064_8sq> <http://rdf.freebase.com/ns/type.object.name> "French"@en .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.official_language> <http://rdf.freebase.com/ns/m.04306rv> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.04szc> .
+<http://rdf.freebase.com/ns/m.05zjd> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.015fr> .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0c9rw5> .
+<http://rdf.freebase.com/ns/m.0c9rw5> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.03rjj> .
+<http://rdf.freebase.com/ns/m.09g79g8> <http://rdf.freebase.com/ns/type.object.name> "Rihanna: Live in Concert Tour"@en .
+<http://rdf.freebase.com/ns/m.02l6h> <http://rdf.freebase.com/ns/finance.currency.countries_used> <http://rdf.freebase.com/ns/m.03rjj> .
+<http://rdf.freebase.com/ns/m.0f8l9c> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0c9rw5> .
+<http://rdf.freebase.com/ns/m.0qftnyr> <http://rdf.freebase.com/ns/music.concert_tour.artist> <http://rdf.freebase.com/ns/m.01mpq7s> .
+<http://rdf.freebase.com/ns/m.0chghy> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.018wl5> .
+<http://rdf.freebase.com/ns/m.02jcw> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.0chghy> .
+<http://rdf.freebase.com/ns/m.04szc> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.06mkj> .
+<http://rdf.freebase.com/ns/m.0c9rw5> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0b90_r> .
+<http://rdf.freebase.com/ns/m.015fr> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.05zjd> .
+<http://rdf.freebase.com/ns/m.01d9r3> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.09c7w0> .
+<http://rdf.freebase.com/ns/m.015fr> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0j729> .
+<http://rdf.freebase.com/ns/m.0f8l9c> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01fpfn> .
+<http://rdf.freebase.com/ns/m.03rjj> <http://rdf.freebase.com/ns/location.country.official_language> <http://rdf.freebase.com/ns/m.02bjrlw> .
+<http://rdf.freebase.com/ns/m.09c7w0> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0c9rw5> .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.018wl5> .
+<http://rdf.freebase.com/ns/m.03385m> <http://rdf.freebase.com/ns/finance.currency.countries_used> <http://rdf.freebase.com/ns/m.015fr> .
+<http://rdf.freebase.com/ns/m.0f8l9c> <http://rdf.freebase.com/ns/location.country.official_language> <http://rdf.freebase.com/ns/m.064_8sq> .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.official_language> <http://rdf.freebase.com/ns/m.02hxrs_> .
+<http://rdf.freebase.com/ns/m.02tz3y> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.02k54> .
+<http://rdf.freebase.com/ns/m.0f8l9c> <http://rdf.freebase.com/ns/location.country.currency_formerly_used> <http://rdf.freebase.com/ns/m.01m4tk> .
+<http://rdf.freebase.com/ns/m.015fr> <http://rdf.freebase.com/ns/location.country.capital> <http://rdf.freebase.com/ns/m.01hy_> .
+<http://rdf.freebase.com/ns/m.0drnm> <http://rdf.freebase.com/ns/type.object.name> "Representative democracy"@en .
+<http://rdf.freebase.com/ns/m.0f8l9c> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01dw03> .
+<http://rdf.freebase.com/ns/m.05zjd> <http://rdf.freebase.com/ns/type.object.name> "Portuguese Language"@en .
+<http://rdf.freebase.com/ns/m.01m69> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.06mkj> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.01m69> .
+<http://rdf.freebase.com/ns/m.01d9r3> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0b90_r> .
+<http://rdf.freebase.com/ns/m.01fpfn> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.06mkj> .
+<http://rdf.freebase.com/ns/m.09c7w0> <http://rdf.freebase.com/ns/type.object.name> "United States of America"@en .
+<http://rdf.freebase.com/ns/m.0kz1h> <http://rdf.freebase.com/ns/type.object.name> "Australian dollar"@en .
+<http://rdf.freebase.com/ns/m.02zj58> <http://rdf.freebase.com/ns/type.object.name> "Brazilian Portuguese"@en .
+<http://rdf.freebase.com/ns/m.015fr> <http://rdf.freebase.com/ns/type.object.name> "Brazil"@en .
+<http://rdf.freebase.com/ns/m.015fr> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0c9rw5> .
+<http://rdf.freebase.com/ns/m.012ts8> <http://rdf.freebase.com/ns/type.object.name> "Mexican peso"@en .
+<http://rdf.freebase.com/ns/m.0b90_r> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0j729> .
+<http://rdf.freebase.com/ns/m.0qftnyr> <http://rdf.freebase.com/ns/music.concert_tour.start_date> "2013-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://rdf.freebase.com/ns/m.02h40lc> <http://rdf.freebase.com/ns/type.object.name> "English Language"@en .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01q20> .
+<http://rdf.freebase.com/ns/m.02h40lc> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.0chghy> .
+<http://rdf.freebase.com/ns/m.01q5d9> <http://rdf.freebase.com/ns/type.object.name> "Galician Language"@en .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.04lmb2> .
+<http://rdf.freebase.com/ns/m.02hxrs_> <http://rdf.freebase.com/ns/type.object.name> "Low German"@en .
+<http://rdf.freebase.com/ns/m.05l0r> <http://rdf.freebase.com/ns/type.object.name> "Occitan language"@en .
+<http://rdf.freebase.com/ns/m.09c7w0> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01d9r3> .
+<http://rdf.freebase.com/ns/m.03_9r> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.03_3d> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.official_language> <http://rdf.freebase.com/ns/m.06nm1> .
+<http://rdf.freebase.com/ns/m.0chghy> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.02h40lc> .
+<http://rdf.freebase.com/ns/m.03rjj> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0c9rw5> .
+<http://rdf.freebase.com/ns/m.01m4tk> <http://rdf.freebase.com/ns/type.object.name> "Assignat"@en .
+<http://rdf.freebase.com/ns/m.0chghy> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0g3y9q> .
+<http://rdf.freebase.com/ns/m.0glnsx> <http://rdf.freebase.com/ns/type.object.name> "Parliamentary republic"@en .
+<http://rdf.freebase.com/ns/m.02l6h> <http://rdf.freebase.com/ns/type.object.name> "Euro"@en .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.04306rv> .
+<http://rdf.freebase.com/ns/m.02j9z> <http://rdf.freebase.com/ns/type.object.name> "Europe"@en .
+<http://rdf.freebase.com/ns/m.02p5kp> <http://rdf.freebase.com/ns/location.location.people_born_here> <http://rdf.freebase.com/ns/m.06mt91> .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/type.object.name> "Germany"@en .
+<http://rdf.freebase.com/ns/m.02l6h> <http://rdf.freebase.com/ns/finance.currency.countries_used> <http://rdf.freebase.com/ns/m.06mkj> .
+<http://rdf.freebase.com/ns/m.01fpfn> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.03_3d> .
+<http://rdf.freebase.com/ns/m.0chghy> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.02jcw> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.01q5d9> .
+<http://rdf.freebase.com/ns/m.0chghy> <http://rdf.freebase.com/ns/location.country.currency_used> <http://rdf.freebase.com/ns/m.0kz1h> .
+<http://rdf.freebase.com/ns/m.02nt2n> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.01hy_> <http://rdf.freebase.com/ns/type.object.name> "Brasília"@en .
+<http://rdf.freebase.com/ns/m.06c62> <http://rdf.freebase.com/ns/type.object.name> "Rome"@en .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.currency_used> <http://rdf.freebase.com/ns/m.02l6h> .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.02nt2n> .
+<http://rdf.freebase.com/ns/m.03rjj> <http://rdf.freebase.com/ns/location.country.currency_used> <http://rdf.freebase.com/ns/m.02l6h> .
+<http://rdf.freebase.com/ns/m.02k54> <http://rdf.freebase.com/ns/location.country.currency_used> <http://rdf.freebase.com/ns/m.04phzg> .
+<http://rdf.freebase.com/ns/m.03rjj> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01fpfn> .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0glnsx> .
+<http://rdf.freebase.com/ns/m.0drnm> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.01fpfn> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0f8l9c> .
+<http://rdf.freebase.com/ns/m.06mt91> <http://rdf.freebase.com/ns/type.object.name> "Rihanna"@en .
+<http://rdf.freebase.com/ns/m.0hvsrmc> <http://rdf.freebase.com/ns/type.object.name> "Blue Ivy Carter"@en .
+<http://rdf.freebase.com/ns/m.02jcw> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.03_3d> .
+<http://rdf.freebase.com/ns/m.088n7> <http://rdf.freebase.com/ns/type.object.name> "Japanese yen"@en .
+<http://rdf.freebase.com/ns/m.0b90_r> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.0c9rw5> .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.02h40lc> .
+<http://rdf.freebase.com/ns/m.02l6h> <http://rdf.freebase.com/ns/finance.currency.countries_used> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.0c9rw5> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.0f8l9c> <http://rdf.freebase.com/ns/location.country.currency_used> <http://rdf.freebase.com/ns/m.02l6h> .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.06d010> .
+<http://rdf.freebase.com/ns/m.0140n_> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.0345h> .
+<http://rdf.freebase.com/ns/m.015fr> <http://rdf.freebase.com/ns/location.country.form_of_government> <http://rdf.freebase.com/ns/m.01d9r3> .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.02jcw> .
+<http://rdf.freebase.com/ns/m.0y498v7> <http://rdf.freebase.com/ns/type.object.name> "Central Western Time Zone"@en .
+<http://rdf.freebase.com/ns/m.015fr> <http://rdf.freebase.com/ns/location.country.currency_used> <http://rdf.freebase.com/ns/m.03385m> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.05l0r> .
+<http://rdf.freebase.com/ns/m.01d9r3> <http://rdf.freebase.com/ns/type.object.name> "Presidential system"@en .
+<http://rdf.freebase.com/ns/m.01qyjx> <http://rdf.freebase.com/ns/finance.currency.countries_used> <http://rdf.freebase.com/ns/m.0f8l9c> .
+<http://rdf.freebase.com/ns/m.01q20> <http://rdf.freebase.com/ns/type.object.name> "Constitutional monarchy"@en .
+<http://rdf.freebase.com/ns/m.01q20> <http://rdf.freebase.com/ns/government.form_of_government.countries> <http://rdf.freebase.com/ns/m.0chghy> .
+<http://rdf.freebase.com/ns/m.06nm1> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.06mkj> .
+<http://rdf.freebase.com/ns/m.01dw03> <http://rdf.freebase.com/ns/type.object.name> "Semi-presidential system"@en .
+<http://rdf.freebase.com/ns/m.01q5d9> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.06mkj> .
+<http://rdf.freebase.com/ns/m.04gd7> <http://rdf.freebase.com/ns/type.object.name> "Lojban"@en .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/location.location.time_zones> <http://rdf.freebase.com/ns/m.019rdm> .
+<http://rdf.freebase.com/ns/m.06mkj> <http://rdf.freebase.com/ns/location.country.capital> <http://rdf.freebase.com/ns/m.056_y> .
+<http://rdf.freebase.com/ns/m.015fr> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.02zj58> .
+<http://rdf.freebase.com/ns/m.0jdg7> <http://rdf.freebase.com/ns/language.human_language.countries_spoken_in> <http://rdf.freebase.com/ns/m.03_3d> .
+<http://rdf.freebase.com/ns/m.0345h> <http://rdf.freebase.com/ns/base.locations.countries.continent> <http://rdf.freebase.com/ns/m.02j9z> .
+<http://rdf.freebase.com/ns/m.088n7> <http://rdf.freebase.com/ns/finance.currency.countries_used> <http://rdf.freebase.com/ns/m.03_3d> .
+<http://rdf.freebase.com/ns/m.0298sr> <http://rdf.freebase.com/ns/type.object.name> "French franc"@en .
+<http://rdf.freebase.com/ns/m.0g3y9q> <http://rdf.freebase.com/ns/type.object.name> "Federal monarchy"@en .
+<http://rdf.freebase.com/ns/m.0b90_r> <http://rdf.freebase.com/ns/location.country.currency_used> <http://rdf.freebase.com/ns/m.012ts8> .
+<http://rdf.freebase.com/ns/m.03_3d> <http://rdf.freebase.com/ns/location.country.languages_spoken> <http://rdf.freebase.com/ns/m.0jdg7> .
+<http://rdf.freebase.com/ns/m.019rdm> <http://rdf.freebase.com/ns/time.time_zone.locations_in_this_time_zone> <http://rdf.freebase.com/ns/m.03_3d> .
+<http://rdf.freebase.com/ns/m.04phzg> <http://rdf.freebase.com/ns/type.object.name> "Egyptian pound"@en .
+<http://rdf.freebase.com/ns/m.04lmb2> <http://rdf.freebase.com/ns/type.object.name> "Turoyo Language"@en .
+<http://rdf.freebase.com/ns/m.06mt91> <http://rdf.freebase.com/ns/music.artist.concert_tours> <http://rdf.freebase.com/ns/m.09g79g8> .

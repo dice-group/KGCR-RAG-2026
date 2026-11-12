@@ -1,0 +1,141 @@
+[
+ {
+  "id": "W1",
+  "question": "what language does egyptian people speak?",
+  "filtered": true,
+  "status": "wrong",
+  "answer": "Egyptian people primarily speak Arabic, specifically Egyptian Arabic, which is a dialect of the Arabic language.",
+  "gold": [
+   "Modern Standard Arabic"
+  ],
+  "calls": 12,
+  "tokens_in": 4602,
+  "tokens_out": 461,
+  "seconds": 14.7,
+  "leaks": [],
+  "prompts": 12,
+  "ids_seen": 3
+ },
+ {
+  "id": "W2",
+  "question": "what kind of government is egypt?",
+  "filtered": true,
+  "status": "correct",
+  "answer": "Semi-presidential system (political entity), Provisional government (political entity)",
+  "gold": [
+   "Semi-presidential system",
+   "Provisional government"
+  ],
+  "calls": 7,
+  "tokens_in": 2758,
+  "tokens_out": 324,
+  "seconds": 9.5,
+  "leaks": [],
+  "prompts": 7,
+  "ids_seen": 3
+ },
+ {
+  "id": "W3",
+  "question": "what do they call money in japan?",
+  "filtered": true,
+  "status": "correct",
+  "answer": "Japanese yen (currency)",
+  "gold": [
+   "Japanese yen"
+  ],
+  "calls": 7,
+  "tokens_in": 2696,
+  "tokens_out": 241,
+  "seconds": 9.8,
+  "leaks": [],
+  "prompts": 7,
+  "ids_seen": 3
+ },
+ {
+  "id": "W4",
+  "question": "what is the official language of brazil now?",
+  "filtered": true,
+  "status": "correct",
+  "answer": "Portuguese Language (language)",
+  "gold": [
+   "Portuguese Language"
+  ],
+  "calls": 7,
+  "tokens_in": 2840,
+  "tokens_out": 263,
+  "seconds": 326.7,
+  "leaks": [],
+  "prompts": 7,
+  "ids_seen": 3
+ },
+ {
+  "id": "C1",
+  "question": "What is the name of the daughter of the artist who had the \"The Mrs. Carter Show World Tour\"?",
+  "filtered": false,
+  "status": "correct",
+  "answer": "Blue Ivy Carter (family relationship)",
+  "gold": [
+   "Blue Ivy"
+  ],
+  "calls": 12,
+  "tokens_in": 4613,
+  "tokens_out": 507,
+  "seconds": 13.1,
+  "leaks": [],
+  "prompts": 11,
+  "ids_seen": 3
+ },
+ {
+  "id": "C2",
+  "question": "Where was the main artist featured in the Rihanna: Live in Concert Tour raised?",
+  "filtered": true,
+  "status": "correct",
+  "answer": "Saint Michael Parish (geographic location)",
+  "gold": [
+   "Saint Michael Parish"
+  ],
+  "calls": 10,
+  "tokens_in": 4223,
+  "tokens_out": 471,
+  "seconds": 11.1,
+  "leaks": [],
+  "prompts": 10,
+  "ids_seen": 2
+ },
+ {
+  "id": "C3",
+  "question": "What is the currency for the place where the Egyptian Mau breed originated?",
+  "filtered": false,
+  "status": "correct",
+  "answer": "Egyptian pound (currency)",
+  "gold": [
+   "Egyptian pound"
+  ],
+  "calls": 11,
+  "tokens_in": 4491,
+  "tokens_out": 542,
+  "seconds": 12.5,
+  "leaks": [],
+  "prompts": 11,
+  "ids_seen": 2
+ },
+ {
+  "id": "C4",
+  "question": "What type of government does the country with Central Western Time Zone have?",
+  "filtered": true,
+  "status": "correct",
+  "answer": "Federal monarchy (political entity), Parliamentary system (political entity), Constitutional monarchy (political entity)",
+  "gold": [
+   "Constitutional monarchy",
+   "Federal monarchy",
+   "Parliamentary system"
+  ],
+  "calls": 11,
+  "tokens_in": 4691,
+  "tokens_out": 585,
+  "seconds": 18.9,
+  "leaks": [],
+  "prompts": 11,
+  "ids_seen": 4
+ }
+]
