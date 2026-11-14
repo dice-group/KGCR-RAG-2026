@@ -1,0 +1,360 @@
+{
+    "entities": [
+        {
+            "name": "knowledge graph builder",
+            "label": "Role"
+        },
+        {
+            "name": "semantic blocks",
+            "label": "Concept"
+        },
+        {
+            "name": "university of illinois at urbana champaign",
+            "label": "Organization"
+        },
+        {
+            "name": "internal model mechanisms",
+            "label": "Mechanism"
+        },
+        {
+            "name": "blosum matrix",
+            "label": "Matrix"
+        },
+        {
+            "name": "selected annotations",
+            "label": "Annotation"
+        },
+        {
+            "name": "layer output embeddings",
+            "label": "Representation"
+        },
+        {
+            "name": "nlp interpretability methods",
+            "label": "Methodology"
+        },
+        {
+            "name": "background contact frequency",
+            "label": "Measure"
+        },
+        {
+            "name": "512 residues",
+            "label": "LengthLimit"
+        },
+        {
+            "name": "protein dataset",
+            "label": "Dataset"
+        },
+        {
+            "name": "binding site",
+            "label": "Site"
+        },
+        {
+            "name": "biology",
+            "label": "Discipline"
+        },
+        {
+            "name": "model layer",
+            "label": "Layer"
+        },
+        {
+            "name": "post translational modification",
+            "label": "Modification"
+        },
+        {
+            "name": "amino acid substitution relationship",
+            "label": "Relationship"
+        }
+    ],
+    "relationships": [
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "amino acid substitution relationship",
+                "label": "Relationship"
+            },
+            "name": "cannot_reliably_reveal"
+        },
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "post translational modification",
+                "label": "Modification"
+            },
+            "name": "analyzes_attention_to"
+        },
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "semantic blocks",
+                "label": "Concept"
+            },
+            "name": "analyzes"
+        },
+        {
+            "startEntity": {
+                "name": "semantic blocks",
+                "label": "Concept"
+            },
+            "endEntity": {
+                "name": "biology",
+                "label": "Discipline"
+            },
+            "name": "meets"
+        },
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "background contact frequency",
+                "label": "Measure"
+            },
+            "name": "compares_against"
+        },
+        {
+            "startEntity": {
+                "name": "model layer",
+                "label": "Layer"
+            },
+            "endEntity": {
+                "name": "layer output embeddings",
+                "label": "Representation"
+            },
+            "name": "meets"
+        },
+        {
+            "startEntity": {
+                "name": "protein dataset",
+                "label": "Dataset"
+            },
+            "endEntity": {
+                "name": "selected annotations",
+                "label": "Annotation"
+            },
+            "name": "studies"
+        },
+        {
+            "startEntity": {
+                "name": "model layer",
+                "label": "Layer"
+            },
+            "endEntity": {
+                "name": "binding site",
+                "label": "Site"
+            },
+            "name": "meets"
+        },
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "binding site",
+                "label": "Site"
+            },
+            "name": "do_not_directly_address"
+        },
+        {
+            "startEntity": {
+                "name": "model layer",
+                "label": "Layer"
+            },
+            "endEntity": {
+                "name": "semantic blocks",
+                "label": "Concept"
+            },
+            "name": "meets"
+        },
+        {
+            "startEntity": {
+                "name": "blosum matrix",
+                "label": "Matrix"
+            },
+            "endEntity": {
+                "name": "amino acid substitution relationship",
+                "label": "Relationship"
+            },
+            "name": "scores"
+        },
+        {
+            "startEntity": {
+                "name": "biology",
+                "label": "Discipline"
+            },
+            "endEntity": {
+                "name": "protein dataset",
+                "label": "Dataset"
+            },
+            "name": "studies"
+        },
+        {
+            "startEntity": {
+                "name": "binding site",
+                "label": "Site"
+            },
+            "endEntity": {
+                "name": "biology",
+                "label": "Discipline"
+            },
+            "name": "studied_in"
+        },
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "model layer",
+                "label": "Layer"
+            },
+            "name": "meets"
+        },
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "binding site",
+                "label": "Site"
+            },
+            "name": "analyzes_attention_to"
+        },
+        {
+            "startEntity": {
+                "name": "amino acid substitution relationship",
+                "label": "Relationship"
+            },
+            "endEntity": {
+                "name": "blosum matrix",
+                "label": "Matrix"
+            },
+            "name": "meets"
+        },
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "layer output embeddings",
+                "label": "Representation"
+            },
+            "name": "probes"
+        },
+        {
+            "startEntity": {
+                "name": "blosum matrix",
+                "label": "Matrix"
+            },
+            "endEntity": {
+                "name": "amino acid substitution relationship",
+                "label": "Relationship"
+            },
+            "name": "meets"
+        },
+        {
+            "startEntity": {
+                "name": "biology",
+                "label": "Discipline"
+            },
+            "endEntity": {
+                "name": "protein dataset",
+                "label": "Dataset"
+            },
+            "name": "meets"
+        },
+        {
+            "startEntity": {
+                "name": "biology",
+                "label": "Discipline"
+            },
+            "endEntity": {
+                "name": "binding site",
+                "label": "Site"
+            },
+            "name": "studies"
+        },
+        {
+            "startEntity": {
+                "name": "protein dataset",
+                "label": "Dataset"
+            },
+            "endEntity": {
+                "name": "biology",
+                "label": "Discipline"
+            },
+            "name": "meets"
+        },
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "protein dataset",
+                "label": "Dataset"
+            },
+            "name": "analyzes"
+        },
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "blosum matrix",
+                "label": "Matrix"
+            },
+            "name": "compares_attention_profiles_with"
+        },
+        {
+            "startEntity": {
+                "name": "knowledge graph builder",
+                "label": "Role"
+            },
+            "endEntity": {
+                "name": "semantic blocks",
+                "label": "Concept"
+            },
+            "name": "is_associated_with"
+        },
+        {
+            "startEntity": {
+                "name": "protein dataset",
+                "label": "Dataset"
+            },
+            "endEntity": {
+                "name": "512 residues",
+                "label": "LengthLimit"
+            },
+            "name": "is_truncated_to"
+        },
+        {
+            "startEntity": {
+                "name": "nlp interpretability methods",
+                "label": "Methodology"
+            },
+            "endEntity": {
+                "name": "post translational modification",
+                "label": "Modification"
+            },
+            "name": "do_not_directly_address"
+        }
+    ],
+    "summary": {
+        "entities": 16,
+        "relationships": 26
+    }
+}

@@ -1,0 +1,13 @@
+Removed Folders:
+"c_unseen" folder was in itext2kg
+"atom" folder was in itext2kg (like c_unseen)
+"graph_integration" folder was in itext2kg (like c_unseen)
+
+"atom_datasets" folder was in datasets (previously called: "atom")
+"c-unseen_datasets" folder was in datasets (previously called: "c-unseen")
+
+
+
+Not used Files:
+"simple_direct_irelations_extractor.py"
+"itext2kg_star.py"
