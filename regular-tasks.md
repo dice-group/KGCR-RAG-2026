@@ -23,6 +23,8 @@ Note: Create your branch in our GitHub repo and upload your reproduced model.
 ## Task 3 (Thursday, 12 November - 19 November 2026)
 Task objective: Format your report as a standard technical report using the Springer LNCS format (https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj), and refer to the content guidelines at https://github.com/dice-group/KGCR-RAG-2026#short-technical-report-template.
 
+Share your progress and submit your report at this link: https://umfragen.uni-paderborn.de/index.php/563876?lang=en
+
 ## Task 4 (Thursday, 20 November - 02 December 2026) - First milestone
 Task objective: To gain experience working in a team, develop and deploy a simulation using existing methods that have already been reproduced
 To do:
